@@ -35,7 +35,7 @@ html, body{
     width: 100%;
     align-self: center;
 }
-.box button{
+.box input{
     transition: 0.5s;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -49,7 +49,7 @@ html, body{
     background-color: #32096b;
 }
 
-button:hover{
+input:hover{
     transition: 0.5s;
     background: white;
     color: #32096b;

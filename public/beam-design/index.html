@@ -6,16 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Beam Design</title>
+    <script>
+        let handleClick = ()=>{
+            return false;
+        }
+    </script>
 </head>
 <body>
     <iframe src="src/sketch.html" id="frame"></iframe>
     <div class="box">
         <p>BEAM DESIGN</p>
-        <form action="#sample">
-            <button>Get Started</button>
+        <form>
+            <input type="button" onclick="handleClick()" value="Get Started"></input>
         </form>
     </div>
-    <a name='sample'></a>
     <h1>Heading</h1>
     <p id="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit corporis maxime doloremque repellat officia minus, debitis, porro ab saepe tenetur voluptate adipisci, perferendis consectetur quam ullam! Qui nam neque voluptatem.</p>
 </body>
